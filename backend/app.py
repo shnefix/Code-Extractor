@@ -12,7 +12,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Set up Google Vision credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'premium-trainer-443622-c8-f46b4ced06f6.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'your_file.json'
 vision_client = vision.ImageAnnotatorClient()
 
 # ==== ROUTES ====
